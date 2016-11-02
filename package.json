@@ -1,0 +1,25 @@
+{
+  "name": "phish-api",
+  "version": "1.0.0",
+  "description": "Api to serve phish data",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnbfox/phish-api.git"
+  },
+  "author": "John Fox",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnbfox/phish-api/issues"
+  },
+  "homepage": "https://github.com/johnbfox/phish-api#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "q": "^1.4.1",
+    "sqlite3": "^3.1.4"
+  }
+}
