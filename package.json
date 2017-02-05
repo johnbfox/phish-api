@@ -19,6 +19,7 @@
   "homepage": "https://github.com/johnbfox/phish-api#readme",
   "dependencies": {
     "express": "^4.14.0",
+    "express-namespace": "^0.1.1",
     "q": "^1.4.1",
     "sqlite3": "^3.1.4"
   }

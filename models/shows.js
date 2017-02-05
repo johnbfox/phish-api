@@ -12,7 +12,6 @@ exports.getShowCount = function(req, resp, next){
 
 exports.getShowStateCount = function(req, resp, next){
   var year = req.params.year;
-  console.log(year);
   shows.getShowStateCount(year).then(function(result){
     resp.send({
       data:{
