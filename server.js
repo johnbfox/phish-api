@@ -4,8 +4,7 @@ var express = require('express'),
     songVersions = require('./models/songVersions'),
     venues = require('./models/venues'),
     https = require('https'),
-    app = express(),
-    pingInterval = 300000;
+    app = express();
 
 app.use(function(req, res, next) {
   res.header("Access-Control-Allow-Origin", "*");
